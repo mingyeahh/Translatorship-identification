@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+nltk
+matplotlib
+jupyterlab
+deepl
+python-dotenv
+google-cloud-translate==2.0.1
