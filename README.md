@@ -6,11 +6,11 @@ This is a translatorship identification modelling project for human and machine 
 ## Dataset construction
 Text documents are the chapters from each translation/book source.
 * directory __`original`__ stores 
-    * `en1`, `en2`, `fr` -> human translations in different languages
+    * `fr-h`, `po-h`, `fr` -> human translations in different languages
     * `po` -> the orginal book in Polish (po)
     * `deepl-t.py` and `google-t.py` -> programs to autogenerate translations by DeepL and Google (API keys required)
-    * `fr-en-dl`, `fr-en-goo` -> generated English translation from the French human translation by machines
-    * `po-en-dl`, `po-en-goo` -> generated English translation from the French human translation by machines
+    * `fr-dl`, `fr-goo` -> generated English translation from the French human translation by machines
+    * `po-dl`, `po-goo` -> generated English translation from the French human translation by machines
 
 * directory __`cleaned`__ stores the relavant data after data cleaning and processing
 
