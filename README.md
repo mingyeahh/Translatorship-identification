@@ -3,6 +3,9 @@
 ## About the project
 This is a translatorship identification modelling project for human and machine translations. The research question is: Can we distinguish machine translation from human translation at the document level? The analysis object is Solaris by Stainslaw Lem. The main method for the project is by Machine Learning, Principal Component Analysis (PCA) and n-gram analysis.
 
+It’s demonstrated that translatorship can be distinguished by n-grams and function words, although performance between the two differs.
+These findings show that the style of translation will be greatly affected by the source text for both humans and machines. It also shows that machine translators, especially Google Translate, each have their own writing style which is somewhat consistent between source languages. Although these styles can be hard to distinguish from each other, they are much more easily distinguishable from human writing styles.
+
 ## Dataset construction
 Text documents are the chapters from each translation/book source.
 * directory __`original`__ stores 
